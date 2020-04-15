@@ -1,0 +1,25 @@
+.newUser {
+  display: flex;
+  width: 560px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid black;
+  margin: 0 auto;
+}
+
+.inputForm {
+  justify-content: center;
+  padding-bottom: 15px;
+}
+
+.formSubmit {
+  width: 225px;
+  margin: 15px 0 15px;
+  border-radius: 25px 35px 45px 0;
+  background-color: #ccc;
+  cursor: pointer;
+}
+
+
+

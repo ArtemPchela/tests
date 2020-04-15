@@ -1,0 +1,51 @@
+[
+  {
+    "name": "Vasia",
+    "lastName": "Pchela",
+    "age": "65",
+    "course": "JavaScript",
+    "id": 0
+  },
+  {
+    "name": "Liosha",
+    "lastName": "Kij",
+    "age": "23",
+    "course": "JavaScript",
+    "id": 1
+  },
+  {
+    "name": "Vika",
+    "lastName": "Tyia",
+    "age": "31",
+    "course": "Java",
+    "id": 2
+  },
+  {
+    "name": "Got",
+    "lastName": "Polimer",
+    "age": "45",
+    "course": "Python",
+    "id": 3
+  },
+  {
+    "name": "Tania",
+    "lastName": "Ruina",
+    "age": "19",
+    "course": "JavaScript",
+    "id": 4
+  },
+  {
+    "name": "Kirill",
+    "lastName": "Sui",
+    "age": "33",
+    "course": "HTML",
+    "id": 5
+  },
+  {
+    "name": "Petia",
+    "lastName": "Pronin",
+    "age": "27",
+    "course": "Go",
+    "id": 6
+  }
+]

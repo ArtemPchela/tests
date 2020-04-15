@@ -1,0 +1,82 @@
+.table {
+  &_header {
+    display: flex;
+    border: 2px solid #383c4f;
+    background-color: #cccccc;
+    text-align: center;
+
+    &_col {
+      border-right: 2px solid #383c4f;
+
+      &_name {
+        width: 20%;
+      }
+
+      &_lastName {
+        width: 25%;
+      }
+
+      &_age {
+        width: 5%;
+      }
+
+      &_course {
+        width: 25%;
+      }
+
+      &_id {
+        width: 5%;
+      }
+
+      &_action {
+        width: 20%;
+      }
+    }
+  }
+
+  &_body {
+    border: 2px solid #383c4f;
+    background-color: #cccccc;
+    text-align: center;
+
+    &_row {
+      display: flex;
+
+
+    }
+
+    &_col {
+      border-right: 2px solid #383c4f;
+
+      &_name {
+        width: 20%;
+      }
+
+      &_lastName {
+        width: 25%;
+      }
+
+      &_age {
+        width: 5%;
+      }
+
+      &_course {
+        width: 25%;
+      }
+
+      &_id {
+        width: 5%;
+      }
+
+      &_delete {
+        width: 10%;
+      }
+
+      &_clone {
+        width: 10%;
+      }
+    }
+  }
+}
+
+

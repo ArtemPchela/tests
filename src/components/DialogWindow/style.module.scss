@@ -1,0 +1,105 @@
+p {
+}
+
+
+.content {
+  //margin-top: 25px;
+  z-index: 1;
+  position: fixed;
+  bottom: 100px;
+  right: 20px;
+  width: 376px;
+  min-height: 250px;
+  max-height: 704px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0 5px 40px;
+  opacity: 1;
+  height: calc(100% - 120px);
+  border-radius: 8px 0 0 8px;
+  overflow-y: auto;
+  &_text {
+
+  }
+  &_icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: black;
+    bottom: 50px;
+    right: 50px;
+    &_toggle {
+      transform: rotate(45deg);
+      transition: 0.5s;
+      height: 15px;
+      width: 15px;
+    }
+  }
+  &_modal {
+    border-radius: 15px 0 0 15px;
+    overflow: auto;
+    background: #ccc;
+    &_header {
+      background: chartreuse;
+      padding: 30px 20px;
+    }
+    &_content {
+      min-height: 250px;
+      margin: 0 auto;
+      width: calc(100% - 40px);
+      box-shadow: rgba(0, 0, 0, 0.1) 0 4px 15px 0, rgba(0, 0, 0, 0.1) 0 1px 2px 0, rgba(51, 51, 51, 0.5) 0 2px 0 0 inset;
+      border-radius: 3px;
+      overflow: hidden;
+      margin-bottom: 17px;
+      background-color: rgb(255, 255, 255);
+      font-size: 14px;
+      line-height: 1.5;
+      padding: 26px 24px 24px;
+    }
+    &_text {
+
+    }
+    &_formGroup {
+      display: flex;
+      align-items: center;
+      line-height: 1.5;
+      padding: 26px 24px 24px;
+      margin: 0 auto 17px;
+      width: calc(100% - 40px);
+      box-shadow: rgba(0, 0, 0, 0.1) 0 4px 15px 0, rgba(0, 0, 0, 0.1) 0 1px 2px 0, rgba(51, 51, 51, 0.5) 0 2px 0 0 inset;
+      border-radius: 3px;
+      overflow: hidden;
+      background-color: rgb(255, 255, 255);
+      font-size: 14px;
+      &_add {
+        color: black;
+      }
+    }
+    &_button {
+      margin-left: 15px;
+      width: 50px;
+      height: 40px;
+      border: none;
+      outline: none;
+      background: transparent url('./pictures/right.svg') no-repeat center;
+      background-size: contain;
+      cursor: pointer;
+    }
+  }
+
+}
+
+
+img {
+  height: 30px;
+  width: 30px;
+  transition: 0.5s;
+}
+
+input[type=text] {
+  border: 2px solid #cccccc;
+  border-radius: 4px;
+  padding: 10px 5px;
+}

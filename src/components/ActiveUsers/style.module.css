@@ -1,0 +1,61 @@
+.table_header {
+  display: flex;
+  border: 2px solid #383c4f;
+  background-color: #cccccc;
+  text-align: center;
+}
+.table_header_col {
+  border-right: 2px solid #383c4f;
+}
+.table_header_col_name {
+  width: 20%;
+}
+.table_header_col_lastName {
+  width: 25%;
+}
+.table_header_col_age {
+  width: 5%;
+}
+.table_header_col_course {
+  width: 25%;
+}
+.table_header_col_id {
+  width: 5%;
+}
+.table_header_col_action {
+  width: 20%;
+}
+.table_body {
+  border: 2px solid #383c4f;
+  background-color: #cccccc;
+  text-align: center;
+}
+.table_body_row {
+  display: flex;
+}
+.table_body_col {
+  border-right: 2px solid #383c4f;
+}
+.table_body_col_name {
+  width: 20%;
+}
+.table_body_col_lastName {
+  width: 25%;
+}
+.table_body_col_age {
+  width: 5%;
+}
+.table_body_col_course {
+  width: 25%;
+}
+.table_body_col_id {
+  width: 5%;
+}
+.table_body_col_delete {
+  width: 10%;
+}
+.table_body_col_clone {
+  width: 10%;
+}
+
+/*# sourceMappingURL=style.module.css.map */
