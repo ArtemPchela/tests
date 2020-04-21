@@ -3,7 +3,6 @@ import styles from "./style.module.scss"
 import titlesArray from "../../title";
 import Header from "../Header/index";
 import FormHooks from "./FormsHooks/FormHooks";
-// import userEvent from "@testing-library/user-event";
 
 export default function ActiveUsers() {
 

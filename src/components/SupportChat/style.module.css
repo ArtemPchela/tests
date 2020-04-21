@@ -1,0 +1,103 @@
+p {
+  margin: 0 0 5px 0;
+  color: black;
+}
+
+.supportChat {
+  position: relative;
+}
+
+.content_modal {
+  position: relative;
+  border-radius: 15px;
+  background: #fff;
+  overflow-y: auto;
+  max-height: 350px;
+}
+.content_modal_wrapper {
+  position: fixed;
+  bottom: 100px;
+  right: 43px;
+  width: 290px;
+  min-height: 250px;
+  opacity: 1;
+  height: calc(100% - 120px);
+  border-radius: 10px;
+  margin-top: 15px;
+}
+.content_modal_wrapper:before {
+  position: absolute;
+  content: "";
+  width: 40px;
+  height: 40px;
+  border: 20px solid transparent;
+  border-top-color: #ffffff;
+  bottom: -7px;
+  right: 11px;
+}
+.content_modal_header {
+  background: chartreuse;
+  padding: 30px 20px;
+}
+.content_modal_content {
+  min-height: 170px;
+  margin: 0 auto;
+  width: calc(100% - 40px);
+  box-shadow: rgba(0, 0, 0, 0.1) 0 4px 15px 0, rgba(0, 0, 0, 0.1) 0 1px 2px 0, rgba(51, 51, 51, 0.5) 0 2px 0 0 inset;
+  border-radius: 3px;
+  overflow: hidden;
+  margin-bottom: 17px;
+  background-color: white;
+  font-size: 14px;
+  line-height: 1.5;
+  padding: 20px 20px 20px;
+}
+.content_modal_formGroup {
+  line-height: 1.5;
+  padding: 15px 15px 25px;
+  margin: 0 auto 17px;
+  width: calc(100% - 40px);
+  box-shadow: rgba(0, 0, 0, 0.1) 0 4px 15px 0, rgba(0, 0, 0, 0.1) 0 1px 2px 0, rgba(51, 51, 51, 0.5) 0 2px 0 0 inset;
+  border-radius: 3px;
+  overflow: hidden;
+  background-color: white;
+  font-size: 14px;
+}
+.content_modal_formGroup_add {
+  display: flex;
+  align-content: space-between;
+  align-items: center;
+  color: black;
+}
+
+img {
+  height: 30px;
+  width: 30px;
+  transition: 0.5s;
+}
+
+.input {
+  width: 165px;
+  height: 40px;
+  box-sizing: border-box;
+  font-size: 14px;
+  box-shadow: rgba(0, 0, 0, 0.07) 0 1px 3px 0 inset;
+  color: black;
+  padding: 11px 40px 11px 16px;
+  border: 1px solid #e1e1e1;
+  border-image: initial;
+  border-radius: 4px;
+  background: #fafafa;
+}
+.input_button {
+  width: 35px;
+  height: 40px;
+  margin-left: 5px;
+  border: none;
+  outline: none;
+  background: transparent url("./pictures/right.svg") no-repeat center;
+  background-size: contain;
+  cursor: pointer;
+}
+
+/*# sourceMappingURL=style.module.css.map */

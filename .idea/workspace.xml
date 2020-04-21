@@ -2,19 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cfb927d2-b2cb-4623-8bd5-d65b44a3c091" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ActiveUsers/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dima_prepearinng_to_interview.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/prepearinng_to_interview.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ActiveUsers/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ActiveUsers/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/DialogWindow/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/DialogWindow/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/DialogWindow/style.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/DialogWindow/style.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/DialogWindow/style.module.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/DialogWindow/style.module.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/DialogWindow/style.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/DialogWindow/style.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header/style.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/style.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header/style.module.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/style.module.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ToggleModal/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ToggleModal/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ToggleModal/style.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ToggleModal/style.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ToggleModal/style.module.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ToggleModal/style.module.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ToggleModal/style.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ToggleModal/style.module.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +48,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/Test" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/SupportChat/SubmitHooks" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
@@ -64,18 +68,18 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\dima_prepearinng_to_interview\src\components\SupportChat\SubmitHooks" />
+      <recent name="D:\dima_prepearinng_to_interview\src\components\SupportChat" />
       <recent name="D:\dima_prepearinng_to_interview\src\components\Test" />
       <recent name="D:\dima_prepearinng_to_interview\src\components\DialogWindow\icon" />
       <recent name="D:\dima_prepearinng_to_interview\server\routes" />
-      <recent name="D:\dima_prepearinng_to_interview\src\components\Slider\pictures\arrow" />
-      <recent name="D:\dima_prepearinng_to_interview\src\components\ActiveUsers\FormsHooks" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\dima_prepearinng_to_interview\src\components\SupportChat" />
       <recent name="D:\dima_prepearinng_to_interview\src\components\DialogWindow\pictures" />
       <recent name="D:\dima_prepearinng_to_interview\src\components\DialogWindow" />
       <recent name="D:\dima_prepearinng_to_interview\public\pictures" />
       <recent name="D:\dima_prepearinng_to_interview\src\components\DialogWindow\icon" />
-      <recent name="D:\dima_prepearinng_to_interview\public" />
     </key>
   </component>
   <component name="RunManager" selected="npm.server">
@@ -133,7 +137,14 @@
       <workItem from="1585562890493" duration="68535000" />
       <workItem from="1586419586309" duration="567000" />
       <workItem from="1586599031973" duration="26234000" />
-      <workItem from="1586935827816" duration="14529000" />
+      <workItem from="1586935827816" duration="15323000" />
+      <workItem from="1586985639794" duration="4739000" />
+      <workItem from="1587027332302" duration="14239000" />
+      <workItem from="1587105519340" duration="14580000" />
+      <workItem from="1587217693033" duration="1207000" />
+      <workItem from="1587377502327" duration="3325000" />
+      <workItem from="1587455148147" duration="4572000" />
+      <workItem from="1587477349022" duration="335000" />
     </task>
     <servers />
   </component>
@@ -149,10 +160,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="434" y="166" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1586956392524" />
-    <state x="437" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1585667121860">
+    <state x="437" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1587126973968">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="437" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1366.728@0.0.1366.728" timestamp="1585667121860" />
+    <state x="437" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1366.728@0.0.1366.728" timestamp="1587126973968" />
     <state x="413" y="111" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1585996980698">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -161,22 +172,22 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="317" y="142" key="EditFileWatcherDialog/0.0.1366.728@0.0.1366.728" timestamp="1584359914473" />
-    <state width="1345" height="179" key="GridCell.Tab.0.bottom" timestamp="1586296404623">
+    <state width="1345" height="179" key="GridCell.Tab.0.bottom" timestamp="1587477309599">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1586296404623" />
-    <state width="1345" height="179" key="GridCell.Tab.0.center" timestamp="1586296404623">
+    <state width="1345" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1587477309599" />
+    <state width="1345" height="179" key="GridCell.Tab.0.center" timestamp="1587477309599">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1586296404623" />
-    <state width="1345" height="179" key="GridCell.Tab.0.left" timestamp="1586296404623">
+    <state width="1345" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1587477309599" />
+    <state width="1345" height="179" key="GridCell.Tab.0.left" timestamp="1587477309599">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1586296404623" />
-    <state width="1345" height="179" key="GridCell.Tab.0.right" timestamp="1586296404623">
+    <state width="1345" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1587477309599" />
+    <state width="1345" height="179" key="GridCell.Tab.0.right" timestamp="1587477309599">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1586296404623" />
+    <state width="1345" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1587477309599" />
     <state x="184" y="6" key="SettingsEditor" timestamp="1586707882043">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
