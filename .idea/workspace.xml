@@ -2,23 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cfb927d2-b2cb-4623-8bd5-d65b44a3c091" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dima_prepearinng_to_interview.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/prepearinng_to_interview.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ActiveUsers/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ActiveUsers/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/DialogWindow/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/DialogWindow/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/DialogWindow/style.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/DialogWindow/style.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/DialogWindow/style.module.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/DialogWindow/style.module.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/DialogWindow/style.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/DialogWindow/style.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header/style.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/style.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header/style.module.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/style.module.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ToggleModal/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ToggleModal/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ToggleModal/style.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ToggleModal/style.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ToggleModal/style.module.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ToggleModal/style.module.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ToggleModal/style.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ToggleModal/style.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Slider/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Slider/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,8 +68,18 @@
       <recent name="D:\dima_prepearinng_to_interview\src\components\DialogWindow\icon" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.server">
+  <component name="RunManager" selected="npm.eject">
     <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
+      <method v="2" />
+    </configuration>
+    <configuration name="eject" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="eject" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
       <method v="2" />
     </configuration>
     <configuration name="npm start" type="js.build_tools.npm">
@@ -118,6 +114,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="npm.eject" />
         <item itemvalue="npm.server" />
         <item itemvalue="npm.start" />
       </list>
@@ -144,7 +141,13 @@
       <workItem from="1587217693033" duration="1207000" />
       <workItem from="1587377502327" duration="3325000" />
       <workItem from="1587455148147" duration="4572000" />
-      <workItem from="1587477349022" duration="335000" />
+      <workItem from="1587477349022" duration="1678000" />
+      <workItem from="1587542888424" duration="1776000" />
+      <workItem from="1587996551628" duration="595000" />
+      <workItem from="1588239855225" duration="2041000" />
+      <workItem from="1588327183889" duration="3385000" />
+      <workItem from="1588496134120" duration="3990000" />
+      <workItem from="1588781748374" duration="1319000" />
     </task>
     <servers />
   </component>

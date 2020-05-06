@@ -47,6 +47,7 @@ export default function Slider() {
 
     useEffect(() => {
         clearTimeout(timeOut);
+        // eslint-disable-next-line react-hooks/exhaustive-deps
         timeOut = setTimeout(
             handleNext
         , 2000);
@@ -71,7 +72,7 @@ export default function Slider() {
                     <div className={`${styles.dots}`}>
                         {Object.keys(slides).map(index => (
                             <span
-                                className={`${styles.dots_style} ${index == active ? styles.styles_active : ""}`}
+                                className={`${styles.dots_style} ${index === active ? styles.styles_active : ""}`}
                                 onClick={event => handleSetClick(event)}
                                 data-quote={index}
                                 key={index}
