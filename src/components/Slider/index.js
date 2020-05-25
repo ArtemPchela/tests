@@ -65,7 +65,8 @@ export default function Slider() {
         <>
             {modal && <Modal closeHandler={modalToggleHandler} src={modalInner}/> }
             <Header/>
-            <div className={`${styles.container}`} onClick={() => modalToggleHandler(current.backgroundImage)}>
+            <p onClick={() => modalToggleHandler()}>adfsfdfgdsgfsdgfdg</p>
+            <div className={`${styles.container}`} >
                 {current && <div className={`${styles.slider}`} style={{backgroundImage: `url(${current.backgroundImg})`}}>
                     <p>{current.header}</p>
                     <p>{current.introduction}</p>

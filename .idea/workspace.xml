@@ -2,9 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cfb927d2-b2cb-4623-8bd5-d65b44a3c091" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/config/env.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/getHttpsConfig.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/jest/cssTransform.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/jest/fileTransform.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/modules.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/paths.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/pnpTs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/webpack.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/webpackDevServer.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/build.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/start.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/test.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Slider/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Slider/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/SupportChat/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SupportChat/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/SupportChat/style.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SupportChat/style.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/SupportChat/style.module.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SupportChat/style.module.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/SupportChat/style.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SupportChat/style.module.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +86,7 @@
       <recent name="D:\dima_prepearinng_to_interview\src\components\DialogWindow\icon" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.eject">
+  <component name="RunManager" selected="npm.npm start">
     <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
       <method v="2" />
     </configuration>
@@ -147,7 +165,10 @@
       <workItem from="1588239855225" duration="2041000" />
       <workItem from="1588327183889" duration="3385000" />
       <workItem from="1588496134120" duration="3990000" />
-      <workItem from="1588781748374" duration="1319000" />
+      <workItem from="1588781748374" duration="11996000" />
+      <workItem from="1589444543742" duration="11364000" />
+      <workItem from="1589970101341" duration="294000" />
+      <workItem from="1590039714740" duration="23773000" />
     </task>
     <servers />
   </component>
@@ -175,22 +196,22 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="317" y="142" key="EditFileWatcherDialog/0.0.1366.728@0.0.1366.728" timestamp="1584359914473" />
-    <state width="1345" height="179" key="GridCell.Tab.0.bottom" timestamp="1587477309599">
+    <state width="1345" height="179" key="GridCell.Tab.0.bottom" timestamp="1588786925633">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1587477309599" />
-    <state width="1345" height="179" key="GridCell.Tab.0.center" timestamp="1587477309599">
+    <state width="1345" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1588786925633" />
+    <state width="1345" height="179" key="GridCell.Tab.0.center" timestamp="1588786925633">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1587477309599" />
-    <state width="1345" height="179" key="GridCell.Tab.0.left" timestamp="1587477309599">
+    <state width="1345" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1588786925633" />
+    <state width="1345" height="179" key="GridCell.Tab.0.left" timestamp="1588786925633">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1587477309599" />
-    <state width="1345" height="179" key="GridCell.Tab.0.right" timestamp="1587477309599">
+    <state width="1345" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1588786925633" />
+    <state width="1345" height="179" key="GridCell.Tab.0.right" timestamp="1588786925633">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1587477309599" />
+    <state width="1345" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1588786925633" />
     <state x="184" y="6" key="SettingsEditor" timestamp="1586707882043">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

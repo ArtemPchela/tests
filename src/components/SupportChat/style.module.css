@@ -15,15 +15,14 @@ p {
   max-height: 350px;
 }
 .content_modal_wrapper {
-  position: fixed;
-  bottom: 100px;
+  position: absolute;
+  top: 55px;
   right: 43px;
   width: 290px;
   min-height: 250px;
   opacity: 1;
   height: calc(100% - 120px);
   border-radius: 10px;
-  margin-top: 15px;
 }
 .content_modal_wrapper:before {
   position: absolute;
@@ -32,7 +31,7 @@ p {
   height: 40px;
   border: 20px solid transparent;
   border-top-color: #ffffff;
-  bottom: -7px;
+  top: 350px;
   right: 11px;
 }
 .content_modal_header {
@@ -68,6 +67,16 @@ p {
   align-content: space-between;
   align-items: center;
   color: black;
+}
+.content_modal_button {
+  margin-top: 22px;
+  width: 50px;
+  height: 40px;
+  border: none;
+  outline: none;
+  background: transparent url("./pictures/right.svg") no-repeat center;
+  background-size: contain;
+  cursor: pointer;
 }
 
 img {

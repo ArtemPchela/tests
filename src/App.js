@@ -8,9 +8,9 @@ function App() {
     return (
         <Fragment>
             <Switch>
-                <Route exact path='/' component={ActiveUsers}/>
                 <Route path='/slides' component={Slider}/>
                 <Route path='/dialog' component={DialogWindow}/>
+                <Route path='/' component={ActiveUsers}/>
             </Switch>
         </Fragment>
     )

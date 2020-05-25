@@ -16,15 +16,14 @@ p {
     max-height: 350px;
 
     &_wrapper {
-      position: fixed;
-      bottom: 100px;
+      position: absolute;
+      top: 55px;
       right: 43px;
       width: 290px;
       min-height: 250px;
       opacity: 1;
       height: calc(100% - 120px);
       border-radius: 10px;
-      margin-top: 15px;
 
       &:before {
         position: absolute;
@@ -33,7 +32,7 @@ p {
         height: 40px;
         border: 20px solid transparent;
         border-top-color: #ffffff;
-        bottom: -7px;
+        top: 350px;
         right: 11px;
       }
     }
@@ -80,16 +79,16 @@ p {
       }
     }
 
-    //&_button {
-    //  margin-top: 22px;
-    //  width: 50px;
-    //  height: 40px;
-    //  border: none;
-    //  outline: none;
-    //  background: transparent url('./pictures/right.svg') no-repeat center;
-    //  background-size: contain;
-    //  cursor: pointer;
-    //}
+    &_button {
+      margin-top: 22px;
+      width: 50px;
+      height: 40px;
+      border: none;
+      outline: none;
+      background: transparent url('./pictures/right.svg') no-repeat center;
+      background-size: contain;
+      cursor: pointer;
+    }
   }
 
 }

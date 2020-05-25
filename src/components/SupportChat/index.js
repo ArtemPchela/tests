@@ -1,4 +1,4 @@
-import React, {useEffect, useState} from "react";
+import React, {useEffect, useState, useRef} from "react";
 import styles from "./style.module.scss";
 import ToggleModal from "../ToggleModal";
 
@@ -9,33 +9,31 @@ export default function SupportChat() {
 
     const [valueInput, setValueInput] = useState("");
 
-    const [modalNote, setModalNote] = useState([]);
-    const [contentNote, setContentNote] = useState([]);
+    const initialState = [{title: 'Hi! How can I help you?', id: 0}];
+    const [modalNote, setModalNote] = useState(initialState);
+    const [contentNote, setContentNote] = useState(initialState);
 
-    let timeModal = null;
-    let timeContent = null;
+    let timeModal = useRef(null);
+    let timeContent = useRef(null);
 
     useEffect(() => {
-        timeContent = setTimeout(() => {
-                setContentNote([...modalNote])
-            }, 1000
-        )
         return () => {
-            clearTimeout(timeModal);
-            clearTimeout(timeContent);
+            clearTimeout(timeModal.current);
+            clearTimeout(timeContent.current);
         }
-    }, [modalNote])
+    }, [])
 
     const addNote = () => {
-        console.log("Message")
-        timeModal = setTimeout(() =>
-            setModalNote([...modalNote, {title: valueInput, id: modalNote.length}]), 1000
-        )
+        console.log("Message");
+        const newContent = [...modalNote, {title: valueInput, id: modalNote.length}];
+
+        timeModal.current = setTimeout(() => {
+            setModalNote(newContent);
+        }, 1000);
+        timeContent.current = setTimeout(() => {
+            setContentNote(newContent);
+        }, 2000);
     }
-
-    useEffect(() => {
-
-    })
 
     const handleSubmit = (e) => {
         e.preventDefault();
@@ -44,9 +42,7 @@ export default function SupportChat() {
     return (
         <section className={`${styles.supportChat}`}>
             <ol>
-                {contentNote.map(note => {
-                    return (<li key={note.id}>{note.title}</li>)
-                })}
+                {contentNote.map(note => <li key={note.id}>{note.title}</li>)}
             </ol>
 
             <ToggleModal toggle={toggle} showDialog={showDialog}/>
